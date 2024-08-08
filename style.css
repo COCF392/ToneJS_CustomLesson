@@ -1,17 +1,34 @@
-.boxContainers{
-    text-align: center;
-}
-
-
-#row1{
+/* Center and style the container */
+.boxContainers {
+    display: flex;
+    justify-content: center;
     margin-top: 15%;
 }
 
 
 .beatBox {
-    width: 25px;
-    height: 25px;
-    transform: scale(1.5); 
-    margin-top: 20px;
-    margin-right: 20px;
+    /* appearance: none; */
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid #555;
+    /* background-color: #222; */
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+
+/* .beatBox:checked {
+    background-color: #bf0603;
+    border-color: #bf0603;
+    transform: scale(1.2);
+}
+
+
+
+#row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+} */
