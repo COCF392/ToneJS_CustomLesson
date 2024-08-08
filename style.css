@@ -1,0 +1,17 @@
+.boxContainers{
+    text-align: center;
+}
+
+
+#row1{
+    margin-top: 15%;
+}
+
+
+.beatBox {
+    width: 25px;
+    height: 25px;
+    transform: scale(1.5); 
+    margin-top: 20px;
+    margin-right: 20px;
+}
